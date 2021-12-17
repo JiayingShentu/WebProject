@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>浮动布局练习</title>
+        <style type="text/css">
+            #father{
+                width: 822px;
+                border: 1px solid gray;
+            }
+            #son1{
+                width:800px;
+                height:100px;
+                background-color: lightblue;
+                margin: 10px;
+            }
+            #son2{
+                width: 595px;
+                height: 380px;
+                float: left;
+                background-color: palevioletred;
+                margin-left: 10px;
+            }
+            #son3{
+                width: 195px;
+                height: 380px;
+                float: left;
+                background-color: palevioletred;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            #son4{
+                width:800px;
+                height:100px;
+                float: left;
+                background-color: lightblue;
+                margin: 10px;
+            }
+            .clear{clear:both}
+        </style>
+    </head>
+    <body>
+        <div id="father">
+            <div id="son1"></div>
+            <div id="son2"></div>
+            <div id="son3"></div> 
+            <div id="son4"></div>
+            <div class="clear"></div>
+        </div>
+    </body>
+</html>
