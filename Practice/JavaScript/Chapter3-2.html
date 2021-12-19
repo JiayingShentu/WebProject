@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <script>
+            var a,b,c;
+            var tmp="";
+            for(var num=100;num<1000;num++){
+                a=num%10;    //个位数字
+                b=(num-a)/10%10;//十位数字
+                c=parseInt( num/100);//百位数字
+                if(num==a*a*a+b*b*b+c*c*c){
+                    tmp=tmp+num+" ";
+                }
+            }
+            document.write("百合数有"+tmp);
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
