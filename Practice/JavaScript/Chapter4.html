@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF=8" />
+    <title></title>
+    <script>
+        //找出最大值
+        function max_num(a,b,c,d,e){
+            var max=a;
+            if(b>max)max=b;
+            if(c>max)max=c;
+            if(d>max)max=d;
+            if(e>max)max=e;
+            return max;
+        }
+        //找出最小值
+        function min_num(a,b,c,d,e){
+            var min=a;
+            if(b<min)min=b;
+            if(c<min)min=c;
+            if(d<min)min=d;
+            if(e<min)min=e;
+            return min;
+        }
+        
+        document.write("12,53,23,1,5的最大值是"+max_num(12,53,23,1,5)+"，最小值是"+min_num(12,53,23,1,5)+"。")
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
