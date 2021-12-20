@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <script>
+        function getNum(str) {
+            var num = 0;
+            for (var i = 0; i < str.length; i++) {
+                var char = str[i];
+                if (char >= '0' && char <= '9') {
+                    num++;
+                }
+            }
+            return num;
+        }
+        document.write(getNum("1d3sdsg"));
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
