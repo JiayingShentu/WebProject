@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title></title>
+        <script>
+            window.onload=function(){
+                //方法一
+                var oInput=document.createElement('input');
+                oInput.id='btn';
+                oInput.type='button';
+                oInput.value='按钮';
+                document.body.appendChild(oInput);
+                //方法二
+                var oDiv=document.createElement('div');
+                oDiv.innerHTML='<input id="btn" type="button" value="按钮"/>';
+                document.body.appendChild(oDiv);
+                //方法三
+                //document.body.innerHTML='<input id="btn" type="button" value="按钮"/>';
+            }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
