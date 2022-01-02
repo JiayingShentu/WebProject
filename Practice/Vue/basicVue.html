@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>basicVue</title>
+</head>
+
+<body>
+    <div id="app" >
+        <h2 v-text="message+'!'"></h2>
+        <h2>我是{{message}}</h2>
+    </div>
+    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+        var app=new Vue({
+            el:"#app",
+            data:{
+                message:"申屠佳颖"
+            }
+        })
+    </script>
+</body>
+
+</html>
